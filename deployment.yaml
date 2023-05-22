@@ -16,7 +16,7 @@ spec:
                 - name: my-app
                   image: 'gcr.io/delta-surf-387301/flask-app:v1.0'
                   ports:
-                      - containerPort: 8888
+                      - containerPort: 80
                   env:
                       - name: PORT
-                        value: '8888'
+                        value: '80'
