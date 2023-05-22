@@ -7,5 +7,5 @@ spec:
     selector:
         app: my-app
     ports:
-      - port: 8888
-        targetPort: 8888
+        - port: 4444
+          targetPort: 8888
